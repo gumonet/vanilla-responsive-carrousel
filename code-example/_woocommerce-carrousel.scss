@@ -1,0 +1,24 @@
+.slider-carrousel-container {
+  position: relative;
+  .carrousel-content{
+    width: 100%;
+    //height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    position: relative;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    .product{
+      min-width: 24%;
+      height: 90%;
+      margin:  0 10px  0 0;
+      position: relative;
+      left: 0;
+      transition: 0.5s;
+    }
+  }
+
+}
